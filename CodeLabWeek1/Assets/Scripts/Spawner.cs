@@ -8,7 +8,8 @@ public class Spawner : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		InvokeRepeating("Spawn",3,2);
+		InvokeRepeating("Spawn",3,2);//Call Spawn
+		
 	}
 	
 	// Update is called once per frame
