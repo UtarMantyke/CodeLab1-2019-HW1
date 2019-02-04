@@ -8,7 +8,7 @@ public class Spawner : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		InvokeRepeating("Spawn",3,2);//Call Spawn
+		InvokeRepeating("Spawn",3,2);//Call Spawn after 3 seconds and then every 2 seconds
 		
 	}
 	
